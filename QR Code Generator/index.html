@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>QR Code Generator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+  <style>
+    ._fc{
+        padding-top:5%;
+    }
+    #download_btn{
+        display:none;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>QR Code Generator</h1>      
+        <p>Convert your secret text to QR code</p>
+    </div>          
+</div>
+  
+<div class="container _fc">
+  <div class="row">
+    <div class="col-sm-6 text-center form-inline">
+        <div class="form-group ">
+            <input type="text" id="qrtextdata" class="form-control" placeholder="Enter secret text here">
+            <button onclick="initQR();" class="btn btn-md btn-success">Generate</button>
+        </div> 
+        <div class="form-group ">
+         <a href="" class="btn btn-md btn-warning" id="download_btn" download="myqrcode.png" >Download QR</a>
+        </div> 
+    </div>
+
+    <div class="col-sm-6">
+        <div id="qrcodecontainer">
+          QR code will be here
+        </div>
+    </div> 
+  </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
