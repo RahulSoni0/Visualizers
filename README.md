@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<a href="https://github.com/ossamamehmood/Hacktoberfest2022/graphs/contributors">
+<a href="https://github.com/rahulsoni0/Visualizers/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=rahulsoni0/Visualizers" />
 </a>
   
