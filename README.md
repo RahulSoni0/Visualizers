@@ -27,7 +27,7 @@
 </div>
 # How to make your first Pull Request
 <h3>
- <p> - Added Any web dev or android dev projects that deals with visualisation of some algorithms / concepts / implemetations
+ <p> - Add Any web dev or android dev projects that deals with visualisation of some algorithms / concepts / implemetations
 <p>  - avoid making PR without raising an issue that describe your project.</h3>
 <p>
 <p>
