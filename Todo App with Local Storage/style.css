@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background: #222222;
+    color: #fff;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table{
+
+   
+
+}
+
+#root td{
+    
+    margin: 5px 0px;
+    border: 5px solid #222222;
+    background: #333;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: black;
+}
+
+button{
+    width: 10vw;
+    margin: 10px;
+}
+
+.serial{
+    width: 10vw;
+}
+
+.todos{
+    width: 50vw;
+}
+
+h1{
+    padding: 5vh 0vh;
+}
+h2{
+    padding: 5vh 0vh;
+}
+
+#name{
+    width: 50vw;
+}
+
+#sub-btn{
+    background: blue;
+    color: #fff;
+    padding: 3px;
+    width: 5vw;
+    border: none;
+    border-radius: 2px;
+}
+
+#del-btn{
+
+    background: red;
+    color: #fff;
+    padding: 3px;
+    width: 5vw;
+    border: none;
+    border-radius: 2px;
+}
+
+
+#msg{
+ color: #e23e57;
+ padding: 10px 0px;   
+ font-size: large;
+}
+
+
+footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  .gitbtn{
+    width: 15vw;
+    margin: 10vh 0vh 5vh 0vh;
+  }
+
+@media screen and (max-width: 427px) {
+    button{
+        width: 90px;
+
+        margin: 5px;
+    }
+
+    #sub-btn{
+        background: blue;
+        color: #fff;
+        padding: 3px;
+        width: 20vw;
+        border: none;
+        border-radius: 2px;
+    }
+
+    #del-btn{
+
+        background: red;
+        color: #fff;
+        padding: 3px;
+        width: 20vw;
+        border: none;
+        border-radius: 2px;
+    
+    }
+
+    .gitbtn{
+        width: 45vw;
+        margin: 10vh 0vh 5vh 0vh;
+      }
+    
+}
+
+@media screen and (min-width: 427px) and (max-width: 1181px){
+
+    .gitbtn{
+        width: 25vw;
+        margin: 10vh 0vh 5vh 0vh;
+      }
+
+    button{
+        width: 100px;
+        margin: 10px;
+    }
+
+    #sub-btn{
+        background: blue;
+        color: #fff;
+        padding: 3px;
+        width: 20vw;
+        border: none;
+        border-radius: 2px;
+    }
+
+    #del-btn{
+
+        background: red;
+        color: #fff;
+        padding: 3px;
+        width: 20vw;
+        border: none;
+        border-radius: 2px;
+    
+    }
+
+}
+
