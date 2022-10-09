@@ -1,0 +1,48 @@
+body {
+  background-color: #000000; /* #4d5d6c */
+  font-family: Arial;
+}
+
+h1 {
+  font-size: 42px;
+  color: rgb(255, 165, 0);
+  margin: 25px 0 25px 0;
+}
+button{
+  background-color: blue;
+  padding: 10px;
+  color: black;
+  border: 2px solid green;
+  border-radius: 50%;
+}
+canvas {
+  background-color: #FFFFFF;
+  border: 1px solid black;
+}
+
+#container {
+  width: 860px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: auto;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+}
+
+span {
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+p {
+  display: inline-block;
+  text-align: center;
+  width: 700px;
+  font-size: 12px;
+  color: #FFFFFF;
+}
