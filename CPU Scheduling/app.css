@@ -1,0 +1,28 @@
+fresh th {
+    background: linear-gradient(WhiteSmoke, lightgray);
+    text-align: left;
+    border: 1px solid black;
+    height: 400 px;
+}
+fresh td {
+    border: 1px solid black;
+    border-bottom: 0;
+    /*border-right: 0;*/
+    height: 20px;
+    text-align: left;
+}
+
+div th, div td {
+    border: 1px solid black;
+    text-align: center;
+}
+table {
+    display: inline;
+    border-collapse: collapse;
+}
+input {
+    text-align: center;
+}
+#curtain {
+  background-color: white;
+}
