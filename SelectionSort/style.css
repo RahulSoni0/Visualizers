@@ -1,0 +1,115 @@
+body {
+    background: #c3cccc;
+}
+.container {
+    padding: 30px;
+    width: 460px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.container p {
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: "sans";
+    text-align: center;
+}
+.tiny{
+    font-size: xx-small;
+    font-weight: 0;
+    text-decoration: underline;
+}
+.line {
+    float: left;
+    display: inline;
+    list-style: none;
+}
+.line li {
+    float: left;
+    border: 1px solid grey;
+    border-right: 0px none;
+    padding: 20px;
+    cursor: pointer;
+}
+.line li:last-child {
+    border-right: 1px solid grey;
+}
+.line li {
+    background: #343436;
+    color: white;
+    transition: 500ms;
+}
+.line li:hover {
+    background: grey;
+    transition: 500ms;
+    border: 1px solid black;
+}
+.bb {
+    border: 1px solid lightgrey;
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 200ms;
+}
+.bb:hover {
+    background: grey;
+    color: white;
+}
+.drawFrom {
+    position: relative;
+    background: red !important;
+    transition: 150ms;
+}
+.drawFrom:before {
+    content: "";
+    position: absolute;
+    top: -23px;
+    left: 23px;
+    border: 1px solid red;
+    height: 25px;
+    width: 0px;
+    padding: 0px;
+}
+.drawFrom:after {
+    content: "";
+    position: absolute;
+    border: 1px dashed red;
+    top: -25px;
+    left: 23px;
+    width: var(--width);
+    height: 0px;
+    transition: 150ms;
+}
+.drawTo {
+    position: relative;
+    background: red !important;
+}
+.drawTo:before {
+    content: "";
+    border: 1px solid red;
+    position: absolute;
+    top: -25px;
+    left: 25px;
+    height: 25px;
+}
+.match,
+.match:before,
+.match:after {
+    background: green !important;
+    border: 1px solid green;
+    transition: 100ms;
+}
+.credit{
+    padding:30px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+.credit a{
+    color:grey;
+    text-shadow:0px 0px 20px white;
+    text-decoration:none;
+    border-bottom:1px dotted grey;
+    padding-bottom:10px;
+    font-size:20px;
+}
