@@ -1,0 +1,41 @@
+body{
+    background-image: url("icons/bg.jpg");
+    height: 90vh;
+    text-align: center;
+ 
+}
+
+#num{
+    padding: 7px;
+    margin: 15px 30px 20px 30px ;
+    border-radius: 5px;
+    width: 200px;
+    border: 0px ;
+    
+}
+
+
+#img-clk{
+    width: 100px;
+}
+
+#myBtn{
+    margin-bottom: 20px;
+    padding: 10px;
+    background: red;
+    border: 0px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+
+#myBtn:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+
+#num::placeholder{
+    text-align: center;
+}
+

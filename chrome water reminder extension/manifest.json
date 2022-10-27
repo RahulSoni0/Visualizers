@@ -1,0 +1,29 @@
+{
+    "manifest_version":3,
+    "version": "100.0.4896.127",
+    "name": "Water Reminder",
+    "description":"This is basically a timer reminder which you can set for any of your specific task in chrome with title.",
+
+    "icons":{
+        "128":"./icons/128.png",
+        "64":"./icons/64.png",
+        "32":"./icons/32.png",
+        "16":"./icons/16.png"
+    },
+
+    "action":{
+        "default_icons":"./icons/32.png",
+        "default_popup":"index.html"
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "permissions":[
+        "alarms",
+        "notifications" 
+    ]
+
+
+}
